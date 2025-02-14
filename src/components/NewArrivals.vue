@@ -20,6 +20,8 @@
                             <i class="bi bi-star"></i>
                             <i class="bi bi-star"></i> </p>
                         <h6>Faxon Canvas Low-Top Sneaker</h6>
+                        <span class="text-danger">$450</span>
+
                     </div>
                 </div>
             </div>
@@ -35,6 +37,8 @@
                             <i class="bi bi-star"></i>
                             <i class="bi bi-star"></i> </p>
                         <h6>Faxon Canvas Low-Top Sneaker</h6>
+                        <span class="text-danger">$450</span>
+
                     </div>
                 </div>
             </div>
@@ -50,6 +54,8 @@
                             <i class="bi bi-star"></i>
                             <i class="bi bi-star"></i> </p>
                         <h6>Faxon Canvas Low-Top Sneaker</h6>
+                        <span class="text-danger">$450</span>
+
                     </div>
                 </div>
             </div>
@@ -67,6 +73,8 @@
                             <i class="bi bi-star"></i>
                             <i class="bi bi-star"></i> </p>
                         <h6>Faxon Canvas Low-Top Sneaker</h6>
+                        <span class="text-danger">$450</span>
+
                     </div>
                 </div>
             </div>
@@ -82,6 +90,7 @@
                             <i class="bi bi-star"></i>
                             <i class="bi bi-star"></i> </p>
                         <h6>Faxon Canvas Low-Top Sneaker</h6>
+                        <span class="text-danger">$450</span>
                     </div>
                 </div>
             </div>
@@ -97,6 +106,8 @@
                             <i class="bi bi-star"></i>
                             <i class="bi bi-star"></i> </p>
                         <h6>Faxon Canvas Low-Top Sneaker</h6>
+                        <span class="text-danger">$450</span>
+
                     </div>
                 </div>
             </div>
