@@ -1,5 +1,5 @@
 <template>
-<section class="NewArivals  ">
+<section class="NewArivals ">
     <div class="container">
         <div class="row">
             <div class="text-center mb-5">
@@ -119,20 +119,24 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-    <div class="col-lg-12">
-        <div class="card py-5 text-white">
-            <img src="/images/1.png" class="card-img" alt="Spring Sale" width="100" height="auto">
-            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
-                <h4 class="card-title display-4 ">SPRING SALE</h4>
-                <p class="card-text fw-semibold">30% off on selected items</p>
+
+    <div class="row">
+    <div class="col-12">
+        <div class="card py-5 text-white ">
+            <img src="/images/1.png" class="card-img img-fluid" alt="Spring Sale">
+            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center  ">
+                <h4 class="card-title display-4 text-uppercase text-md-3 text-lg-1">SPRING SALE</h4>
+                <p class="card-text fw-semibold fs-5 fs-md-4 fs-lg-3">30% off on selected items</p>
                 <p class="card-text">
-                    <button class="btn  text-white shop-btn">SHOP THE SALE <i class="bi bi-arrow-right-short  text-white  "></i></button>
+                    <button class="btn btn-lg text-white shop-btn px-4 py-2 fs-6 fs-md-5 fs-lg-4">SHOP THE SALE 
+                        <i class="bi bi-arrow-right-short text-white"></i>
+                    </button>
                 </p>
             </div>
         </div>
     </div>
 </div>
+
 
     </div>
 </section>
@@ -154,8 +158,47 @@
     border-radius: 3px;
 
 }
-.shop-btn{
-    background-color: rgb(241, 120, 101);
-    border-radius:1px ;
-}
+
+.shop-btn {
+        background-color: rgb(241, 120, 101);
+        border-radius: 1px;
+        color: white;
+        border: none;
+        transition: background-color 0.3s ease-in-out, transform 0.2s;
+    }
+
+    .shop-btn:hover {
+        background-color: rgb(230, 100, 80);
+        transform: scale(1.05);
+    }
+
+    .shop-btn i {
+        transition: transform 0.2s;
+    }
+
+    .shop-btn:hover i {
+        transform: translateX(5px);
+    }
+
+    /* Custom Responsive Button Sizes */
+    @media (max-width: 576px) {  /* Extra Small Screens */
+        .shop-btn {
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 768px) { /* Small Screens */
+        .shop-btn {
+            font-size: 16px;
+            padding: 8px 14px;
+        }
+    }
+
+    @media (min-width: 768px) { /* Medium and Larger Screens */
+        .shop-btn {
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+    }
 </style>
